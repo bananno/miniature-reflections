@@ -1,0 +1,108 @@
+
+a, .fakea
+{
+	text-decoration:none;
+	background-color:#ffdddd;
+	color:black;
+	padding-left:5px;
+	padding-right:5px;
+}
+a:hover
+{
+	text-decoration:underline
+}
+
+table,td
+{
+	//border:1px solid black;
+	padding:0px;
+}
+
+#inner_content
+{
+//	border:1px solid black;
+	vertical-align:text-top;
+	padding:10px;
+}
+
+#site_title1, #site_title2, #site_copy, .menu_cell, .menu_spacer
+{
+//	border:1px solid black;
+	font-family:"lucida handwriting";
+	color:#ffdddd;
+}
+
+#site_title1, #site_title2
+{
+	text-align:right;
+}
+
+#site_title1
+{
+	font-size:40px;
+}
+
+#site_title2
+{
+	font-size:20px;
+}
+
+#site_copy
+{
+	font-size:20;
+}
+
+#outline, #body_header, #body_footer
+{
+	border:5px ridge pink;
+}
+
+#outline
+{
+	background-color:white;
+}
+
+#body_menu
+{
+	text-align:center;
+}
+
+.menu_cell
+{
+	padding-left:20px;
+	padding-right:20px;
+}
+
+#body_header, #body_footer, #body_content
+{
+	width:800px;
+}
+
+#body_header, #body_footer
+{
+	background-image:url(http://www.miniaturereflections.com/tutu.JPG);
+}
+
+#body_header
+{
+	//height:200px;
+}
+
+#body_menu
+{
+}
+
+#body_content
+{
+	height:300px;
+}
+
+#body_footer
+{
+	height:50px;
+}
+
+body
+{
+	background-image:url(http://i250.photobucket.com/albums/gg264/apbananno/Backgrounds/Patterns/starspink.gif);
+}

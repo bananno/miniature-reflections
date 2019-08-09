@@ -1,0 +1,67 @@
+<script language=javascript>
+
+/* GOALS
+	- hide away menus
+	- browsing list of outfits
+*/
+
+document.write("<center><table border=1 width=500 height=500>");
+document.write("<tr><td colspan=2 height=100>Miniature Reflections<tr><td valign=top width=150><table border=0>");
+
+navi=new Array();
+link=new Array();
+subs=new Array();
+n=0;
+
+navi[n]="Home";
+			link[n]="index"; n++;
+navi[n]="Products";
+			link[n]="products"; subs[n]="prod1_prod2_prod3"; n++;
+navi[n]="About Us";
+			link[n]="about"; n++;
+navi[n]="Gallery";
+			link[n]="gallery"; n++;
+navi[n]="Contact Us";
+			link[n]="contact"; n++;
+
+for(x=0;x<n;x++)
+{
+	if(subs[x]==null)document.write("<tr><td><td>");
+	else document.write("<tr><td id=symbol" + x + " onClick=sub_menu(" + x + ")>&#9658;<td onClick=sub_menu(" + x + ")>");
+	document.write(navi[x] + "<tr><td><td id=submenu" + x + ">");
+}
+
+document.write("</table><td>BODY</table>");
+
+menu_open=new Array();
+
+function sub_menu (num)
+{
+	if(menu_open[num]==null)menu_open[num]=false;
+
+	if(menu_open[num]==true)
+	{
+		sub="";
+		sym="&#9658;";
+		menu_open[num]=false;
+	}
+	else
+	{
+		y=0;
+		sub="";
+		while(y<subs[num].length)
+		{
+			str=subs[num].slice(y);
+			z=str.indexOf("_");
+			sub+="<tr><td>"+str.slice(0,z);
+			y+=z+1;
+		}
+		sub="Option<BR>Option<BR>Option";
+		sym="&#9660;";
+		menu_open[num]=true;
+	}
+	document.getElementById("submenu"+num).innerHTML=sub;
+	document.getElementById("symbol"+num).innerHTML=sym;
+}
+
+</script>
