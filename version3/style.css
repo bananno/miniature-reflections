@@ -1,7 +1,7 @@
 body
 {
 font-family:"tempus sans itc";
-background:url(pics/stars.gif) fixed;
+background:url(../images/stars.gif) fixed;
 }
 
 a
@@ -15,13 +15,13 @@ text-decoration:none;
 {
 padding:5px;
 border:5px ridge pink;
-background:url(pics/garden.jpg) fixed;
+background:url(../images/garden.jpg) fixed;
 }
 
 .header
 {
 border:3px ridge pink;
-background:url(pics/tutu.JPG);
+background:url(../images/tutu.JPG);
 width:750px;
 }
 

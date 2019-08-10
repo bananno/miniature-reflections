@@ -97,7 +97,7 @@ if(page=="products")
 		if(row>0)str+="<tr>";
 		row*=-1;
 
-		str+="<td><img src=http://miniaturereflections.com/pics/" + pNick[x] + "_full_th.jpg width=100><td valign=top><span class=fakea>";
+		str+="<td><img src='../models/" + pNick[x] + "_full_th.jpg' width=100><td valign=top><span class=fakea>";
 		str+=pName[x] + "</span><BR>" + pDesc[x] + "<BR>$" + pCost[x];
 	}
 }

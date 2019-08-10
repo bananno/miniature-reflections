@@ -21,44 +21,44 @@ p=0;
 pName[p]="Candy Canes";
 pNick[p]="candy";
 pDesc[p]="White leotard with sparkly red embellishment and pull-on skirt. Striped headpiece and red ballet shoes included!";
-pPage[p]="<a href=pics/candy_full.jpg target=_blank><img src=pics/candy_full.jpg height=300 border=0 title='click for larger image'></a>";
-pPage[p]+="<img src=pics/candy_detail3.jpg height=300 border=0 title='Red satin ballet shoes included'></a>";
-pPage[p]+="<img src=pics/candy_detail2.jpg height=300 border=0 title='Red and white striped bow-style headpiece with tiny white bobby pins'></a>";
-pPage[p]+="<img src=pics/candy_detail1.jpg height=300 border=0 title='detail of embellishment'></a>";
+pPage[p]="<a href='../models/candy_full.jpg' target=_blank><img src='../models/candy_full.jpg' height=300 border=0 title='click for larger image'></a>";
+pPage[p]+="<img src='../models/candy_shoes.jpg' height=300 border=0 title='Red satin ballet shoes included'></a>";
+pPage[p]+="<img src='../models/candy_head.jpg' height=300 border=0 title='Red and white striped bow-style headpiece with tiny white bobby pins'></a>";
+pPage[p]+="<img src='../models/candy_detail.jpg' height=300 border=0 title='detail of embellishment'></a>";
 pCost[p]=35; p++;
 
 pName[p]="Chinese Dolls";
 pNick[p]="chinese";
 pDesc[p]="Trimmed with hand-made Chinese frog closures, brocade top comes in choice of six colors. Black pants and tassled \"chopsticks\" headpiece included.";
-pPage[p]="<table><td><a href=pics/chinese_full.jpg target=_blank><img src=pics/chinese_full.jpg height=331 title='\"Hot Pink\" (click for larger image)'></a>";
-pPage[p]+="<td><img src=pics/chinese_detail1.jpg title='Wooden \"Chopsticks\" with Tassels'><BR><img src=pics/chinese_detail2.jpg title='Handmade frog closure'></table>";
-pPage[p]+="<BR>Choose from Six Colors:<BR><img src=pics/chinese_opt1.jpg title='Royal Blue'><img src=pics/chinese_opt2.jpg title='Red'><img src=pics/chinese_opt3.jpg title='Emerald Green'><img src=pics/chinese_opt4.jpg title='Powder Blue'><img src=pics/chinese_opt5.jpg title='Purple'><img src=pics/chinese_opt6.jpg title='Hot Pink (shown)' height=80>";
+pPage[p]="<table><td><a href='../models/chinese_full.jpg' target=_blank><img src='../models/chinese_full.jpg' height=331 title='\"Hot Pink\" (click for larger image)'></a>";
+pPage[p]+="<td><img src='../models/chinese_detail1.jpg' title='Wooden \"Chopsticks\" with Tassels'><BR><img src='../models/chinese_detail2.jpg' title='Handmade frog closure'></table>";
+pPage[p]+="<BR>Choose from Six Colors:<BR><img src='../models/chinese_opt1.jpg' title='Royal Blue'><img src='../models/chinese_opt2.jpg' title='Red'><img src='../models/chinese_opt3.jpg' title='Emerald Green'><img src='../models/chinese_opt4.jpg' title='Powder Blue'><img src='../models/chinese_opt5.jpg' title='Purple'><img src='../models/chinese_opt6.jpg' title='Hot Pink (shown)' height=80>";
 pCost[p]=35; p++;
 
 pName[p]="Sugarplum Fairy";
 pNick[p]="sugar";
 pDesc[p]="Every dancer's dream, this luscious pink classical tutu is trimmed with delicate lace and jewels. Tulle skirt is authentically hand-tacked. Price includes pink beaded tiara.";
-pPage[p]="<a href=pics/sugar_full.jpg target=_blank><img src=pics/sugar_full.jpg height=300 title='click for larger image'></a>";
-pPage[p]+="<img src=pics/sugar_detail1.jpg title='beaded tiara included'>";
+pPage[p]="<a href='../models/sugar_full.jpg' target=_blank><img src='../models/sugar_full.jpg' height=300 title='click for larger image'></a>";
+pPage[p]+="<img src='../models/sugar_detail1.jpg' title='beaded tiara included'>";
 pCost[p]=50; p++;
 
 pName[p]="Mother Ginger's Children";
 pNick[p]="mother";
 pDesc[p]="White satin top has flirty fringed collar in your choice of six colors. Black pants.";
-pPage[p]="<a href=pics/mother_full.jpg target=_blank><img src=pics/mother_full.jpg width=250 title='\"Yellow\" (click for larger image)'></a>";
-pPage[p]+="<a href=pics/mother_full2.jpg target=_blank><img src=pics/mother_full2.jpg width=250 title='\"Hot Pink\" (click for larger image)'></a>";
-pPage[p]+="<BR><img src=pics/mother_detail1.jpg title='Satin collar trimmed with tiny pom pom fringe' width=250>";
-pPage[p]+="<img src=pics/mother_detail2.jpg title='Satin collar trimmed with tiny pom pom fringe' width=250>";
-pPage[p]+="<BR><BR>Choose from six colors:<BR><img src=pics/mother_opt1.jpg height=100 title='Yellow (Shown)'><img src=pics/mother_opt2.jpg height=100 title='Hot Pink (Shown)'>";
-pPage[p]+="<img src=pics/mother_opt3.jpg height=100 title='Red'><img src=pics/mother_opt4.jpg height=100 title='Dark Green'>";
-pPage[p]+="<img src=pics/mother_opt5.jpg height=100 title='Royal Blue'><img src=pics/mother_opt6.jpg height=100 title='Turquoise'>";
+pPage[p]="<a href='../models/mother_full.jpg' target=_blank><img src='../models/mother_full.jpg' width=250 title='\"Yellow\" (click for larger image)'></a>";
+pPage[p]+="<a href='../models/mother_full2.jpg' target=_blank><img src='../models/mother_full2.jpg' width=250 title='\"Hot Pink\" (click for larger image)'></a>";
+pPage[p]+="<BR><img src='../models/mother_detail1.jpg' title='Satin collar trimmed with tiny pom pom fringe' width=250>";
+pPage[p]+="<img src='../models/mother_detail2.jpg' title='Satin collar trimmed with tiny pom pom fringe' width=250>";
+pPage[p]+="<BR><BR>Choose from six colors:<BR><img src='../models/mother_opt1.jpg' height=100 title='Yellow (Shown)'><img src='../models/mother_opt2.jpg' height=100 title='Hot Pink (Shown)'>";
+pPage[p]+="<img src='../models/mother_opt3.jpg' height=100 title='Red'><img src='../models/mother_opt4.jpg' height=100 title='Dark Green'>";
+pPage[p]+="<img src='../models/mother_opt5.jpg' height=100 title='Royal Blue'><img src='../models/mother_opt6.jpg' height=100 title='Turquoise'>";
 pCost[p]=25; p++;
 
 pName[p]="Clara Special Set";
 pNick[p]="clara";
 pDesc[p]="Clara's Party Dress features double-layer skirt of satin, ribbon and lace trim, and white ribbon sash. Special Set includes bonus eyelet nightgown and mini Nutcracker, just her size!";
-pPage[p]="<a href=pics/clara_full.jpg target=_blank><img src=pics/clara_full.jpg height=300 title='click for larger image'></a>";
-pPage[p]+="<img src=pics/clara_full2.jpg height=250 title=\"Clara's nightgown and Nutcracker\">";
+pPage[p]="<a href='../models/clara_full.jpg' target=_blank><img src='../models/clara_full.jpg' height=300 title='click for larger image'></a>";
+pPage[p]+="<img src='../models/clara_full2.jpg' height=250 title=\"Clara's nightgown and Nutcracker\">";
 pCost[p]=75; p++;
 
 pName[p]="Littlest Angels";
@@ -71,15 +71,15 @@ pCost[p]=25; p++;
 pName[p]="Waltz of the Flowers";
 pNick[p]="waltz";
 pDesc[p]="Romantic tutu with four shades of layered tulle. Attached bengaline bodice is embellished with flowers. Traditional floral headpiece is included.";
-pPage[p]="<a href=pics/waltz_full.jpg target=_blank><img src=pics/waltz_full.jpg height=300 title='click for larger image'></a>";
-pPage[p]+="<img src=pics/waltz_detail1.jpg title='jewelled floral headpiece includes tiny bobby pins' height=200>";
+pPage[p]="<a href='../models/waltz_full.jpg' target=_blank><img src='../models/waltz_full.jpg' height=300 title='click for larger image'></a>";
+pPage[p]+="<img src='../models/waltz_detail1.jpg' title='jewelled floral headpiece includes tiny bobby pins' height=200>";
 pCost[p]=45; p++;
 
 pName[p]="The Snow Queen";
 pNick[p]="snow";
 pDesc[p]="Pristine white classical tutu with attached bengaline bodice trimmed in lace and pearls. Tutu skirt is hand-tacked. Beaded snowflake tiara included.";
-pPage[p]="<a href=pics/snow_full.jpg target=_blank><img src=pics/snow_full.jpg height=300 title='click for larger image'></a>";
-pPage[p]+="<img src=pics/snow_detail1.jpg title='beaded tiara included' height=300>";
+pPage[p]="<a href='../models/snow_full.jpg' target=_blank><img src='../models/snow_full.jpg' height=300 title='click for larger image'></a>";
+pPage[p]+="<img src='../models/snow_detail1.jpg' title='beaded tiara included' height=300>";
 pCost[p]=50; p++;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
@@ -128,7 +128,7 @@ if(page=="products")
 
 		link="<a href=products." + pNick[x] + ".html>";
 
-		str+="<td valign=top>" + link + "<img src=pics/" + pNick[x] + "_th.jpg width=120>";
+		str+="<td valign=top>" + link + "<img src='../models/" + pNick[x] + "_full_th.jpg' width=120>";
 		str+="<td class=product valign=top>" + link +"<span class=title>" + pName[x];
 		str+="</span><BR>" + pDesc[x] + "<BR>$" + pCost[x];
 		if(pPage[x].length==0)str+="*****";
