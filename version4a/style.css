@@ -80,7 +80,7 @@ table,td
 
 #body_header, #body_footer
 {
-	background-image:url(http://www.miniaturereflections.com/tutu.JPG);
+	background-image:url(../images/tutu.JPG);
 }
 
 #body_header
@@ -104,5 +104,5 @@ table,td
 
 body
 {
-	background-image:url(http://i250.photobucket.com/albums/gg264/apbananno/Backgrounds/Patterns/starspink.gif);
+	background-image:url(../images/stars.gif);
 }
