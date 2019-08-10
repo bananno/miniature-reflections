@@ -6,3 +6,10 @@
     url("john-handy-let/font.woff") format("woff"),
     url("john-handy-let/font.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "Lucida Handwriting";
+  src: local("Lucida Handwriting"),
+    url("lucida-handwriting/font.woff") format("woff"),
+    url("lucida-handwriting/font.ttf") format("truetype");
+}

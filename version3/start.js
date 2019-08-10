@@ -4,6 +4,8 @@
 
 // INCLUDE STYLE SHEET, ADD TITLE
 
+document.write('<link rel="stylesheet" type="text/css" href="../vendor/font.css">');
+
 	document.write('<link rel="stylesheet" type="text/css" href="style.css" /><title>Miniature Reflections</title><center>');
 
 // BEGIN OUTSIDE AND HEADER TABLES

@@ -6,7 +6,9 @@ urls=["index","products","contact"];
 ///////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////
 
-s="<link rel=stylesheet type=text/css href=style.css>";
+s = '<link rel="stylesheet" type="text/css" href="../vendor/font.css">';
+
+s += '<link rel="stylesheet" type="text/css" href="style.css">';
 
 s+="<title>Miniature Reflections</title><center>";
 

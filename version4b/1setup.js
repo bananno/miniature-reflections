@@ -2,6 +2,8 @@
 menu=["Home","Products","Contact Us"];
 urls=["index","products","contact"];
 
+document.write('<link rel="stylesheet" type="text/css" href="../vendor/font.css">');
+
 document.write("<link rel=stylesheet type=text/css href=1style.css>");
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
