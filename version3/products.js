@@ -9,7 +9,7 @@ var pSeries = new Array(); // product series, example "ballet" = nutcracker seri
 p=0;
 
 pName[p]="Candy Canes";
-pShort[p]="candycane";
+pShort[p]="candy";
 pDescrip[p] = "White leotard with sparkly red embelishment and pull-on skirt. Striped headpiece and red ballet shoes included!"
 pPrice[p]=35;
 pSeries[p] = nutcracker;
@@ -23,7 +23,7 @@ pSeries[p] = nutcracker;
 p++;
 
 pName[p]="Sugarplum Fairy";
-pShort[p]="sugarplum";
+pShort[p]="sugar";
 pDescrip[p] = "Every dancer's dream, this luscious pink classical tutu is trimmed with pink lace and jewels. Tulle skirt is authentically hand-tacked. Price includes pink beaded tiara.";
 pPrice[p]=50;
 pSeries[p] = nutcracker;
@@ -44,21 +44,21 @@ pSeries[p] = nutcracker;
 p++;
 
 pName[p]="Littlest Angels";
-pShort[p]="littlestangel";
+pShort[p]="angel";
 pDescrip[p] = "Sweet Angel dress has attached marabou-trimmed wings, golden trimmings, and rope sash. Garland headpiece with white roses, gold beads and shimmering ribbon included.";
 pPrice[p]=25;
 pSeries[p] = nutcracker;
 p++;
 
 pName[p]="Waltz of the Flowers";
-pShort[p]="flower";
+pShort[p]="waltz";
 pDescrip[p] = "Romantic tutu with four shades of layered tulle. Attached bengaline bodice is embellished with flowers. Traditional floral headpiece is included.";
 pPrice[p]=45;
 pSeries[p] = nutcracker;
 p++;
 
 pName[p]="The Snow Queen";
-pShort[p]="snowqueen";
+pShort[p]="snow";
 pDescrip[p] = "Pristine white classical tutu with attached bengaline bodice trimmed in lace and pearls. Tutu skirt is hand-tacked. Beaded snowflake tiara included.";
 pPrice[p]=50;
 pSeries[p] = nutcracker;

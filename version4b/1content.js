@@ -64,8 +64,8 @@ pCost[p]=75; p++;
 pName[p]="Littlest Angels";
 pNick[p]="angel";
 pDesc[p]="Sweet Angel dress has attached marabou-trimmed wings, golden trimmings, and rope sash. Garland headpiece with white roses, gold beads and shimmering ribbon included.";
-pPage[p]="<table><td><a href=pics/angel_full.jpg target=_blank><img src=pics/angel_full.jpg height=305 title='click for larger image'></a>";
-pPage[p]+="<td><img src=pics/angel_detail2.jpg width=200 title='Floral Headpiece Included'><BR><img src=pics/angel_detail1.jpg width=195></table>";
+pPage[p]="<table><td><a href='../models/angel_full.jpg' target=_blank><img src='../models/angel_full.jpg' height=305 title='click for larger image'></a>";
+pPage[p]+="<td><img src='../models/angel_detail_head2.jpg' width=200 title='Floral Headpiece Included'><BR><img src='../models/angel_detail_wings.jpg' width=195></table>";
 pCost[p]=25; p++;
 
 pName[p]="Waltz of the Flowers";
@@ -159,7 +159,7 @@ else if(page.match("products.")=="products.")
 
 		if(z!=x)str+="<a href=products." + pNick[z] + ".html class=no_a>";
 
-		str+="<img src=pics/" + pNick[z] + "_th.jpg height=120><BR>" + pName[z] + "</table>";
+		str+="<img src=../models/" + pNick[z] + "_full_th.jpg height=120><BR>" + pName[z] + "</table>";
 	}
 
 	str+="</table>";
