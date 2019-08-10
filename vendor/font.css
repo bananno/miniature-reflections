@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "John Handy LET";
+  font-style: normal;
+  font-weight: 400;
+  src: local("John Handy LET Plain:1.0"), local("JohnHandyLET-Plain"),
+    url("john-handy-let/font.woff") format("woff"),
+    url("john-handy-let/font.ttf") format("truetype");
+}
