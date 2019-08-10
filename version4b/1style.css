@@ -62,7 +62,7 @@ a, .product .title
 
 body
 {
-	background:url(http://i250.photobucket.com/albums/gg264/apbananno/Backgrounds/Patterns/starspink.gif) fixed;
+	background:url(../images/stars.gif) fixed;
 }
 
 #inner_content
@@ -80,13 +80,13 @@ body
 {
 	padding:5px;
 	border:5px ridge pink;
-	background:url(http://www.miniaturereflections.com/garden.jpg) white fixed;
+	background:url(../images/garden.jpg) white fixed;
 }
 
 #body_header, #body_footer
 {
 	border:3px ridge pink;
-	background:url(http://www.miniaturereflections.com/tutu.JPG);
+	background:url(../images/tutu.jpg);
 }
 
 #body_header, #body_footer, #body_content
