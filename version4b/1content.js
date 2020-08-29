@@ -88,21 +88,21 @@ pCost[p]=50; p++;
 
 if(page=="index")
 {
-	str="<h2> Miniature Reflections </h2>";
+  str="<h2> Miniature Reflections </h2>";
 
-	str+="<p> Welcome! This website is still under construction. Feel free to browse around, but if you have questions, comments, or need more information, <a href=contact.html>Contact Us</a>.</p>";
+  str+="<p> Welcome! This website is still under construction. Feel free to browse around, but if you have questions, comments, or need more information, <a href=contact.html>Contact Us</a>.</p>";
 
-	str+="<p> Become a fan on " + fbook + " for updates and events.</p>";
+  str+="<p> Become a fan on " + fbook + " for updates and events.</p>";
 
-	str+="<h2> About Us </h2>";
+  str+="<h2> About Us </h2>";
 
-	str+="<p> With 40 years of combined sewing experience, Dori and Jill love creating with fabric! Currently working as costumers for a regional non-profit ballet company, they have designed a line of costumes for 18\" dolls which are replicas of the actual Nutcracker ballet costumes worn by the dancers on the stage. Using many of the same materials and authentic techniques, these tiny tutus, dresses and tiaras are miniature reflections of a classic art form. A portion of these sales is donated to the Gainesville Ballet Company as fundraiser.</p>";
+  str+="<p> With 40 years of combined sewing experience, Dori and Jill love creating with fabric! Currently working as costumers for a regional non-profit ballet company, they have designed a line of costumes for 18\" dolls which are replicas of the actual Nutcracker ballet costumes worn by the dancers on the stage. Using many of the same materials and authentic techniques, these tiny tutus, dresses and tiaras are miniature reflections of a classic art form. A portion of these sales is donated to the Gainesville Ballet Company as fundraiser.</p>";
 
-	str+="<table><td class=cont valign=top><h2> How to Order </h2>";
+  str+="<table><td class=cont valign=top><h2> How to Order </h2>";
 
-	str+="<p> Online ordering is currently unavailble. To order, review our <a href=products.html>Products</a> online and <a href=contact.html>Contact Us</a> to arrange your purchase.";
+  str+="<p> Online ordering is currently unavailble. To order, review our <a href=products.html>Products</a> online and <a href=contact.html>Contact Us</a> to arrange your purchase.";
 
-	str+="</p><BR>" + counter + "<td valign=top>" + fbookmod + "</table>";
+  str+="</p><BR>" + counter + "<td valign=top>" + fbookmod + "</table>";
 
 }
 
@@ -112,57 +112,57 @@ if(page=="index")
 
 if(page=="products")
 {
-	str="<h2> Products </h2>";
+  str="<h2> Products </h2>";
 
-	str+="<p>Click on the photos below for detailed information about each costume.";
-	str+="<p>Depending on availability of materials, actual costume details may vary slightly.";
-	str+="<p>Tights and shoes not included, unless noted.";
+  str+="<p>Click on the photos below for detailed information about each costume.";
+  str+="<p>Depending on availability of materials, actual costume details may vary slightly.";
+  str+="<p>Tights and shoes not included, unless noted.";
 
-	str+="<h3> Gainesville Ballet Company <BR> Nutcracker Performance Series </h3>";
+  str+="<h3> Gainesville Ballet Company <BR> Nutcracker Performance Series </h3>";
 
-	str+="<table border=0><tr><td width=50% colspan=2><td width=50% colspan=2><tr>";
+  str+="<table border=0><tr><td width=50% colspan=2><td width=50% colspan=2><tr>";
 
-	for(x=0;x<p;x++)
-	{
-		if(x%2==0 && x>0)str+="<tr><td height=30><tr>";
+  for(x=0;x<p;x++)
+  {
+    if(x%2==0 && x>0)str+="<tr><td height=30><tr>";
 
-		link="<a href=products." + pNick[x] + ".html>";
+    link="<a href=products." + pNick[x] + ".html>";
 
-		str+="<td valign=top>" + link + "<img src='../models/" + pNick[x] + "_full_th.jpg' width=120>";
-		str+="<td class=product valign=top>" + link +"<span class=title>" + pName[x];
-		str+="</span><BR>" + pDesc[x] + "<BR>$" + pCost[x];
-		if(pPage[x].length==0)str+="*****";
-	}
+    str+="<td valign=top>" + link + "<img src='../models/" + pNick[x] + "_full_th.jpg' width=120>";
+    str+="<td class=product valign=top>" + link +"<span class=title>" + pName[x];
+    str+="</span><BR>" + pDesc[x] + "<BR>$" + pCost[x];
+    if(pPage[x].length==0)str+="*****";
+  }
 }
 
 else if(page.match("products.")=="products.")
 {
-	for(x=0;x<p;x++)if(page==("products." + pNick[x]))break;
+  for(x=0;x<p;x++)if(page==("products." + pNick[x]))break;
 
-	str="<h2>ì" + pName[x] + "î Doll Costume</h2><a href=products.html>Return to Products</a><p>" + pDesc[x];
-	str+="<BR>$" + pCost[x] + "<center><BR>" + pPage[x];
+  str="<h2>‚Äú" + pName[x] + "‚Äù Doll Costume</h2><a href=products.html>Return to Products</a><p>" + pDesc[x];
+  str+="<BR>$" + pCost[x] + "<center><BR>" + pPage[x];
 
-	str+="</center><BR><p> If you have questions, please don't hesitate to <a href=contact.html>Contact Us</a>. </p><center>";
+  str+="</center><BR><p> If you have questions, please don't hesitate to <a href=contact.html>Contact Us</a>. </p><center>";
 
-	str+="<font size=6>*****</font><BR><h3> Browse More Products <span class=h3_light>(<a href=products.html>See All</a>)</span></h3><table>";
+  str+="<font size=6>*****</font><BR><h3> Browse More Products <span class=h3_light>(<a href=products.html>See All</a>)</span></h3><table>";
 
-	if(x<2)y=0;
-	else if(x>p-3)y=p-5;
-	else y=x-2;
+  if(x<2)y=0;
+  else if(x>p-3)y=p-5;
+  else y=x-2;
 
-	for(z=y;z<y+5;z++)
-	{
-		if(z==x)cl="current";
-		   else cl="other";
+  for(z=y;z<y+5;z++)
+  {
+    if(z==x)cl="current";
+       else cl="other";
 
-		str+="<td valign=top><table><td align=center valign=top class=browse_" + cl + ">";
+    str+="<td valign=top><table><td align=center valign=top class=browse_" + cl + ">";
 
-		if(z!=x)str+="<a href=products." + pNick[z] + ".html class=no_a>";
+    if(z!=x)str+="<a href=products." + pNick[z] + ".html class=no_a>";
 
-		str+="<img src=../models/" + pNick[z] + "_full_th.jpg height=120><BR>" + pName[z] + "</table>";
-	}
+    str+="<img src=../models/" + pNick[z] + "_full_th.jpg height=120><BR>" + pName[z] + "</table>";
+  }
 
-	str+="</table>";
+  str+="</table>";
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
@@ -171,11 +171,11 @@ else if(page.match("products.")=="products.")
 
 if(page=="contact")
 {
-	str="<h2> Contact Us </h2>";
+  str="<h2> Contact Us </h2>";
 
-	str+="<p> Email us at <span class=fakea>MiniatureReflections@yahoo.com</span> and we will try to get back to you within 24 hours.";
+  str+="<p> Email us at <span class=fakea>MiniatureReflections@yahoo.com</span> and we will try to get back to you within 24 hours.";
 
-	str+="<p> To receive regular updates, follow us on " + fbook + ".</p> <table height=300><td></table>";
+  str+="<p> To receive regular updates, follow us on " + fbook + ".</p> <table height=300><td></table>";
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////

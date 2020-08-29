@@ -58,19 +58,19 @@ pCost[p]=50; p++;
 
 if(page=="index")
 {
-	str="<h2> Miniature Reflections </h2>";
+  str="<h2> Miniature Reflections </h2>";
 
-	str+="<p> Welcome! This website is still under construction. Feel free to browse around, but if you have questions, comments, or need more information, Contact Us.";
+  str+="<p> Welcome! This website is still under construction. Feel free to browse around, but if you have questions, comments, or need more information, Contact Us.";
 
-	str+="<p> Become a fan on " + fbook + " for updates and events.";
+  str+="<p> Become a fan on " + fbook + " for updates and events.";
 
-	str+="<h2> About Us </h2>";
+  str+="<h2> About Us </h2>";
 
-	str+="<p> With 40 years of combined sewing experience, Dori and Jill love creating with fabric! Currently working as costumers for a regional non-profit ballet company, they have designed a line of costumes for 18\" dolls which are replicas of the actual Nutcracker ballet costumes worn by the dancers on the stage. Using many of the same materials and authentic techniques, these tiny tutus, dresses and tiaras are miniature reflections of a classic art form. A portion of these sales is donated to the Gainesville Ballet Company as fundraiser.";
+  str+="<p> With 40 years of combined sewing experience, Dori and Jill love creating with fabric! Currently working as costumers for a regional non-profit ballet company, they have designed a line of costumes for 18\" dolls which are replicas of the actual Nutcracker ballet costumes worn by the dancers on the stage. Using many of the same materials and authentic techniques, these tiny tutus, dresses and tiaras are miniature reflections of a classic art form. A portion of these sales is donated to the Gainesville Ballet Company as fundraiser.";
 
-	str+="<h2> How to Order </h2>";
+  str+="<h2> How to Order </h2>";
 
-	str+="<p> Online ordering is currently unavailble. To order, review our <a href=products.html>Products</a> online and <a href=contact.html>Contact Us</a> to arrange your purchase.";
+  str+="<p> Online ordering is currently unavailble. To order, review our <a href=products.html>Products</a> online and <a href=contact.html>Contact Us</a> to arrange your purchase.";
 
 }
 
@@ -80,26 +80,26 @@ if(page=="index")
 
 if(page=="products")
 {
-	str="<h2> Products </h2>";
+  str="<h2> Products </h2>";
 
-	str+="<p>Click on the photos below for detailed information about each costume.";
-	str+="<p>Depending on availability of materials, actual costume details may vary slightly.";
-	str+="<p>Tights and shoes not included, unless noted.";
+  str+="<p>Click on the photos below for detailed information about each costume.";
+  str+="<p>Depending on availability of materials, actual costume details may vary slightly.";
+  str+="<p>Tights and shoes not included, unless noted.";
 
-	str+="<h3> Gainesville Ballet Company <BR> Nutcracker Performance Series </h3>";
+  str+="<h3> Gainesville Ballet Company <BR> Nutcracker Performance Series </h3>";
 
-	str+="<table border=0><tr><td width=50% colspan=2><td width=50% colspan=2>";
+  str+="<table border=0><tr><td width=50% colspan=2><td width=50% colspan=2>";
 
-	row=1;
+  row=1;
 
-	for(x=0;x<p;x++)
-	{
-		if(row>0)str+="<tr>";
-		row*=-1;
+  for(x=0;x<p;x++)
+  {
+    if(row>0)str+="<tr>";
+    row*=-1;
 
-		str+="<td><img src='../models/" + pNick[x] + "_full_th.jpg' width=100><td valign=top><span class=fakea>";
-		str+=pName[x] + "</span><BR>" + pDesc[x] + "<BR>$" + pCost[x];
-	}
+    str+="<td><img src='../models/" + pNick[x] + "_full_th.jpg' width=100><td valign=top><span class=fakea>";
+    str+=pName[x] + "</span><BR>" + pDesc[x] + "<BR>$" + pCost[x];
+  }
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
@@ -108,11 +108,11 @@ if(page=="products")
 
 if(page=="contact")
 {
-	str="<h2> Contact Us </h2>";
+  str="<h2> Contact Us </h2>";
 
-	str+="<p> Email us at <span class=fakea>MiniatureReflections@yahoo.com</span> and we will try to get back to you within 24 hours.";
+  str+="<p> Email us at <span class=fakea>MiniatureReflections@yahoo.com</span> and we will try to get back to you within 24 hours.";
 
-	str+="<p> To receive regular updates, follow us on " + fbook + ".";
+  str+="<p> To receive regular updates, follow us on " + fbook + ".";
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
