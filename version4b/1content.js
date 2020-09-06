@@ -3,9 +3,9 @@ str="";
 fbook="<a target=_blank href='http://www.facebook.com/pages/Miniature-Reflections/262332885596'>Facebook</a>";
 
 counter="<font face=arial color=black size=3>Visitors<BR>since 09-09-09:<BR>";
-counter+="<img src=http://counters.freewebs.com/Members/Counters/counter.jsp?userid=46152773&name=Visitors>";
+counter+="<img src='#'>";
 
-fbookmod='<table cellpadding=0><td bgcolor=white><iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FMiniature-Reflections%2F262332885596&amp;width=238&amp;colorscheme=light&amp;connections=4&amp;stream=false&amp;header=true&amp;height=220" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:238px; height:220px;" allowTransparency="false"></iframe></table>';
+fbookmod='<table cellpadding=0><td bgcolor=white><iframe src="blank.html" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:238px; height:220px;" allowTransparency="false"></iframe></table>';
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////

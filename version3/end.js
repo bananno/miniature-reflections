@@ -1,1 +1,1 @@
-document.write('</table>check<table class="header"><td height=20></table></table>');
+document.write('</table><table class="header"><td height=20></table></table>');
