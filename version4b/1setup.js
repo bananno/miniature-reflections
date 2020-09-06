@@ -23,7 +23,7 @@ document.write("<table id=body_header><td align=right>");
 
   for(x=0;x<menu.length;x++)
   {
-    if(x>0)document.write('<td class=menu_spacer>&#9830;');
+    if(x>0)document.write('<td class=menu_spacer>&#9670;');
     document.write("<td class=menu_cell><a href=" + urls[x] + ".html>" + menu[x]);
   }
 
