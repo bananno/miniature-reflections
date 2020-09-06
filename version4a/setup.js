@@ -24,7 +24,7 @@ s+="<table id=body_menu><td>";
   s+="<table id=menu_frame>";
   for(x=0;x<menu.length;x++)
   {
-    if(x>0)s+="<td class=menu_spacer>&#9830;";
+    if(x>0)s+="<td class=menu_spacer>&#9670;";
     s+="<td class=menu_cell><a href=" + urls[x] + ".html>" + menu[x];
   }
 

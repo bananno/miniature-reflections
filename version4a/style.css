@@ -32,6 +32,10 @@ table,td
   color:#ffdddd;
 }
 
+.menu_spacer {
+  font-size: 10px;
+}
+
 #site_title1, #site_title2
 {
   text-align:right;

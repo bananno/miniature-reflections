@@ -18,7 +18,7 @@ document.write('<link rel="stylesheet" type="text/css" href="../vendor/font.css"
 
 // NAVIGATION LINKS, END HEADER TABLE
 
-  document.write('<table class="navigation" border=0 align=center height=40><td width=80 align=center><a href=index.html>Home<td>&#9830;<td width=100 align=center><a href=products.html>Products<td>&#9830;<td width=140 align=center><a href=order.html>How to Order<td>&#9830;<td width=120 align=center><a href=contact.html>Contact Us<td>&#9830;<td width=90  align=center><a href=gallery.html>Gallery</table></table>');
+  document.write('<table class="navigation" border=0 align=center height=40><td width=80 align=center><a href=index.html>Home<td class="diamond">&#9670;<td width=100 align=center><a href=products.html>Products<td class="diamond">&#9670;<td width=140 align=center><a href=order.html>How to Order<td class="diamond">&#9670;<td width=120 align=center><a href=contact.html>Contact Us<td class="diamond">&#9670;<td width=90 align=center><a href=gallery.html>Gallery</table></table>');
 
 // BEGIN MAIN BODY CONTENT TABLE
 
