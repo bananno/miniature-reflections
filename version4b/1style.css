@@ -1,129 +1,129 @@
 a, .product .title
 {
-	color:black;
-	background-color:ffdddd;
+  color:black;
+  background-color:ffdddd;
 }
 
 .product a
 {
-	text-decoration:none;
-	background:none;
+  text-decoration:none;
+  background:none;
 }
 
 .product .title
 {
-	font-weight:bold;
+  font-weight:bold;
 }
 
 #site_title1, #site_title2, #site_c, .menu_cell, .menu_spacer
 {
-	color:#ffdddd;
-	font-family:"lucida handwriting";
+  color:#ffdddd;
+  font-family:"lucida handwriting";
 }
 
 #site_title1
 {
-	font-size:48px;
+  font-size:48px;
 }
 
 #site_title2
 {
-	font-size:24px;
-	text-align:right;
+  font-size:24px;
+  text-align:right;
 }
 
 #site_c
 {
-	width:50px;
-	vertical-align:text-top;
+  width:50px;
+  vertical-align:text-top;
 }
 
 .menu_cell, .menu_spacer
 {
-	text-align:center;
+  text-align:center;
 }
 
 .menu_cell
 {
-	width:120px;
+  width:120px;
 }
 
 .menu_cell a
 {
-	padding-left:5px;
-	padding-right:5px;
-	text-decoration:none;
+  padding-left:5px;
+  padding-right:5px;
+  text-decoration:none;
 }
 
 .menu_cell a:hover
 {
-	font-size:18
+  font-size:18
 }
 
 body
 {
-	background:url(../images/stars.gif) fixed;
+  background:url(../images/stars.gif) fixed;
 }
 
 #inner_content
 {
-	padding:10px;
-	font-family:"tempus sans itc";
+  padding:10px;
+  font-family:"tempus sans itc";
 }
 
 #inner_content, .cont
 {
-	font-size:18px;
+  font-size:18px;
 }
 
 #outline
 {
-	padding:5px;
-	border:5px ridge pink;
-	background:url(../images/garden.jpg) white fixed;
+  padding:5px;
+  border:5px ridge pink;
+  background:url(../images/garden.jpg) white fixed;
 }
 
 #body_header, #body_footer
 {
-	border:3px ridge pink;
-	background:url(../images/tutu.jpg);
+  border:3px ridge pink;
+  background:url(../images/tutu.jpg);
 }
 
 #body_header, #body_footer, #body_content
 {
-	width:750px;
+  width:750px;
 }
 
 .no_a
 {
-	text-decoration:none;
+  text-decoration:none;
 }
 
 .browse_current, .browse_other
 {
 
-	padding-top:5px;
-	height:170;
-	width:130;
+  padding-top:5px;
+  height:170;
+  width:130;
 }
 
 .browse_current
 {
-	border:3px solid black;
+  border:3px solid black;
 }
 
 .browse_other
 {
-	border:2px solid transparent;
+  border:2px solid transparent;
 }
 
 .browse_other:hover
 {
-	border:2px solid black;
+  border:2px solid black;
 }
 
 .h3_light
 {
-	font-size:15px;
-	font-weight:normal;
+  font-size:15px;
+  font-weight:normal;
 }
